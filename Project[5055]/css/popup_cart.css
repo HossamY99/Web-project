@@ -1,0 +1,111 @@
+#cart-btn-container {
+    position: absolute;
+}
+
+#popup-cart {
+    position: absolute;
+    border: 1px solid;
+    width: 270px;
+    color: white;
+    background-color: #484848;
+    transition: 0.5s;
+    overflow: hidden;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#popup-cart #popup-cart-items-section {
+    max-height: 80%;
+}
+
+#popup-cart .cart-item-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#popup-cart .cart-item-container .close-icon {
+    margin: 10px;
+    cursor: pointer;
+}
+
+#popup-cart .product-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0px 15px;
+}
+
+#popup-cart .cart-item-container .product-details {
+    align-self: flex-start;
+    margin-top: 12px;
+}
+
+#popup-cart .close-icon {
+    align-self: flex-start;
+    float: right;
+    right: 2px;
+}
+
+#popup-cart .product-container .qty {
+    color: #949494;
+}
+
+#popup-cart .product-container .price {
+    margin-top: 10px;
+    color: white;
+}
+
+#popup-cart .product-container img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    margin-right: 18px;
+}
+
+#popup-cart .total-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    background-color: #3d3d3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#popup-cart .total-container .shipping-row,
+#popup-cart .total-container .total-row {
+    display: flex;
+    justify-content: space-between;
+    width: 89%;
+    margin: 0 auto;
+}
+
+#popup-cart .total-container .divider {
+    border: none;
+    height: 1px;
+    width: 90%;
+    background-color: #5f5e5e;
+    margin: 5px auto;
+}
+
+#popup-cart #button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: #333333;
+}
+
+#popup-cart #button-container button {
+    background-color: #23247a;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 0.6em;
+    width: 90%;
+    height: 60%;
+}
